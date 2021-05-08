@@ -1,2 +1,18 @@
 Clean Archtecture
 
+- Aula 2 - Video 1
+
+Entidade para Clean Architecture é referente as regras de negócio
+
+Aula 2 - Video 2
+
+Uma classe entidade é referente ao modo de diferenciar duas instâncias (mesmo nome mas cpf diferentes)
+Uma classe VALUE OBJECT não tem diferenciação.
+
+Aula 3 - Video 3
+
+Não existe somente um módulo de modularização das divisões da infraestrutura.
+Pode ser pelo:
+- Maven.
+- Módulos do Java 9
+- Por pacotes, como no nosso exemplo

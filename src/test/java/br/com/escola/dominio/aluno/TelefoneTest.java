@@ -1,4 +1,4 @@
-package br.com.escola.aluno;
+package br.com.escola.dominio.aluno;
 
 import org.junit.jupiter.api.Test;
 
