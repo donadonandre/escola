@@ -1,6 +1,8 @@
-package escola;
+package br.com.escola.aluno;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import br.com.escola.aluno.Email;
 import org.junit.jupiter.api.Test;
 
 public class EmailTest {
