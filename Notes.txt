@@ -16,3 +16,10 @@ Pode ser pelo:
 - Maven.
 - Módulos do Java 9
 - Por pacotes, como no nosso exemplo
+
+Aula 4 - Video 1 
+
+Repositório é um padrão para a camada de banco de dados, porém sem ter detalhes técnicos das regras de negócio.
+Embora a persistência seja algo técnico, ela fica dentro do domínio porém a implementação fica de fora do domínio.
+EXEMPLO DE INVERSÃO DE DEPENDÊNCIA.
+
