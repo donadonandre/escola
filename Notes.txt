@@ -23,3 +23,10 @@ Repositório é um padrão para a camada de banco de dados, porém sem ter detal
 Embora a persistência seja algo técnico, ela fica dentro do domínio porém a implementação fica de fora do domínio.
 EXEMPLO DE INVERSÃO DE DEPENDÊNCIA.
 
+Aula 4 - Video 2
+
+Exemplo com JBDC
+
+Aula 4 - Video 3
+
+Exemplo em memória
