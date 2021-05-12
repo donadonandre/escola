@@ -1,0 +1,43 @@
+Clean Archtecture
+
+- Aula 2 - Video 1
+
+Entidade para Clean Architecture é referente as regras de negócio
+
+Aula 2 - Video 2
+
+Uma classe entidade é referente ao modo de diferenciar duas instâncias (mesmo nome mas cpf diferentes)
+Uma classe VALUE OBJECT não tem diferenciação.
+
+Aula 3 - Video 3
+
+Não existe somente um módulo de modularização das divisões da infraestrutura.
+Pode ser pelo:
+- Maven.
+- Módulos do Java 9
+- Por pacotes, como no nosso exemplo
+
+Aula 4 - Video 1 
+
+Repositório é um padrão para a camada de banco de dados, porém sem ter detalhes técnicos das regras de negócio.
+Embora a persistência seja algo técnico, ela fica dentro do domínio porém a implementação fica de fora do domínio.
+EXEMPLO DE INVERSÃO DE DEPENDÊNCIA.
+
+Aula 4 - Video 2
+
+Exemplo com JBDC
+
+Aula 4 - Video 3
+
+Exemplo em memória
+
+Aula 5 - Videos 1 e 2
+
+Podem existir serviços de domínio e de infraestrutura.
+
+Representar uma classe que executa alguma ação que não pertence a nenhuma entidade ou VO.
+As nossas regras de negócio devem ficar nas entidades e VOs, mas nem sempre isso faz sentido. Quando precisamos executar alguma ação que não faça parte de nenhuma entidade nem de um VO, podemos utilizar uma classe Service.
+
+Aula 6 - Video 3
+
+O método executa (COMMANDO) para a classe MatricularAluno é bom testar a persistência
